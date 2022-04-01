@@ -1,4 +1,6 @@
 import random
-from ready_madlibs import                 #preencher
+from ready_madlibs import nosferatu, sample
+
 if __name__ == "__main__":
-  random.choices(#preencher)
+  pego = random.choice([nosferatu, sample])
+  pego.madlib()
